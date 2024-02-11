@@ -31,8 +31,8 @@ const starwars = (p = 0) => {
               .then(
                 (self) =>
                   (info.innerHTML += `<h2>Born on planet ${self.name}</h2>
-                <li>Rotation period: ${self.rotation_period}cm</li>
-                <li>Orbital period: ${self.orbital_period}kg</li>
+                <li>Rotation period: ${self.rotation_period}</li>
+                <li>Orbital period: ${self.orbital_period}</li>
                 <li>Planet diameter: ${self.diameter}</li>
                 <li>Climate: ${self.climate}</li>
                 <li>Gravity: ${self.gravity}</li>
